@@ -53,7 +53,7 @@ class formulario_login extends Component {
                                         <Router>
                                             <Link to="/centro"><button onclick className="boton-login" target="_blank" >Iniciar Sesión</button></Link>
                                             <Switch>
-                                                <Route exact path="/centro" component={centro}/>
+                                                <Route exact path="/centroÑO" component={centro}/>
                                             </Switch> 
                                         </Router>
                                         <div className="enlace">
