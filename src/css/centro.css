@@ -1,0 +1,31 @@
+.fondo-prescripciones{
+    background-color: #4282ec;
+    margin-top: 23px;
+}
+.fondo-direccionamientos{
+    background-color: #4282ec;
+    margin-top: 23px;
+}
+.texto-derecha{
+    text-align: right;
+    color:#ffffff;
+}
+.imagen-1{
+    width: 67px;
+}
+.texto-blanco{
+    color: #ffffff;
+}
+.texto-gris{
+  color: #7bbaf7;
+}
+.texto-numero{
+    font-size: 48px;
+}
+.parte-inferior{
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    color:#000000;
+    
+}
