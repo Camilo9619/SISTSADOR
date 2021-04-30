@@ -60,7 +60,7 @@ class formulario_login extends Component {
                                             <a href="/">¿Olvidaste tu contraseña?</a>
                                         </div>
                                         <div className="barra">
-                                            <span>_______________________________________________________</span>
+                                            <span>______________________________________________________</span>
                                         </div>
                                         <div>
                                             <button className="boton-registrar" >Crear Cuenta</button>
