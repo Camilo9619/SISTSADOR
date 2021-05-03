@@ -53,11 +53,11 @@ class formulario_login extends Component {
                                         <Router>
                                             <Link to="/centro"><button onclick className="boton-login" target="_blank" >Iniciar Sesión</button></Link>
                                             <Switch>
-                                                <Route exact path="/centroÑO" component={centro}/>
+                                                <Route exact path="/centro" component={centro}/>
                                             </Switch> 
                                         </Router>
                                         <div className="enlace">
-                                            <a href="/">¿Olvidaste tu contraseña?</a>
+                                            <a href="/">¿Olvidaste tu contraseña UPPS?</a>
                                         </div>
                                         <div className="barra">
                                             <span>______________________________________________________</span>
