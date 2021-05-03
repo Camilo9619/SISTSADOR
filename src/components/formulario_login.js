@@ -12,24 +12,7 @@ class formulario_login extends Component {
         return (
             <div className="TODOLOGIN">
                 <div className="row container-fluid">
-                    <div className="col-6">
-                        <div className="texto-col1">
-                            <span >
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text ever since the
-                                1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but
-                                also the leap into electronic typesetting, remaining
-                                essentially unchanged. It was popularised in the
-                                1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including
-                                versions of Lorem Ipsum.
-                            </span>
-                        </div>
-                    </div>
+               
                     <div className="col-6">
                         <div className="container-fluid formulario">
                             <div className="Principal">
@@ -51,9 +34,9 @@ class formulario_login extends Component {
                                         />
                                         <br/>
                                         <Router>
-                                            <Link to="/centro"><button onclick className="boton-login" target="_blank" >Iniciar Sesión</button></Link>
+                                            <Link to="/centro"><button onclick className="boton-login" target="_set" >Iniciar Sesión</button></Link>
                                             <Switch>
-                                                <Route exact path="/centro" component={centro}/>
+                                                <Route exact path="/Menu" component={Menu}/>
                                             </Switch> 
                                         </Router>
                                         <div className="enlace">

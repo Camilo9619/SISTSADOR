@@ -14,10 +14,18 @@ class Login extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-6">
-                                <texto_login/>
+                                <BrowserRouter>
+                                    <Switch>
+                                         <Route exact path="/" component={texto_login}/>
+                                    </Switch>
+                                </BrowserRouter>
                             </div>
                             <div className="col-6">
-                                <formulario_login/>
+                                <BrowserRouter>
+                                    <Switch>
+                                         <Route exact path="/" component={formulario_login}/>
+                                    </Switch>
+                                </BrowserRouter>
                             </div>
                         </div>
                     </div>

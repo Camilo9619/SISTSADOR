@@ -3,6 +3,7 @@ import centro from '../components/centro';
 import '../css/menu.css';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import encabezado from '../components/encabezado';
+import abajo from '../components/abajo';
 class Menu extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ class Menu extends Component {
                             <Route exact path="/" component={encabezado}/>
                         </Switch>
                     </BrowserRouter>
+                    <encabezado/>
                 </div>
                 <div className="fondo-parte">
                     <BrowserRouter>
@@ -24,7 +26,7 @@ class Menu extends Component {
                 <div>
                     <BrowserRouter>
                         <Switch>
-                            <Route exact path="/" component={encabezado}/>
+                            <Route exact path="/" component={abajo}/>
                         </Switch>
                     </BrowserRouter>
                 </div>
