@@ -57,7 +57,7 @@ class formulario_login extends Component {
                                             </Switch> 
                                         </Router>
                                         <div className="enlace">
-                                            <a href="/">¿Olvidaste tu contraseña UPPS?</a>
+                                            <a href="/">¿Olvidaste tu contraseña?</a>
                                         </div>
                                         <div className="barra">
                                             <span>______________________________________________________</span>
