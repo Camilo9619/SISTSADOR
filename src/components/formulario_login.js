@@ -34,9 +34,9 @@ class formulario_login extends Component {
                                         />
                                         <br/>
                                         <Router>
-                                            <Link to="/centro"><button onclick className="boton-login" target="_set" >Iniciar Sesión</button></Link>
+                                            <Link to="/centro"><button onclick className="boton-login" target="_blank" >Iniciar Sesión</button></Link>
                                             <Switch>
-                                                <Route exact path="/Menu" component={Menu}/>
+                                                <Route exact path="/centro" component={centro}/>
                                             </Switch> 
                                         </Router>
                                         <div className="enlace">
