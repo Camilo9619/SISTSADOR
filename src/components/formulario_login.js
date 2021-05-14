@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Formulario-Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Menu from '../pages/Menu';
 import centro from './centro';
 
@@ -33,12 +33,9 @@ class formulario_login extends Component {
                                             onChange={this.handleChange}    
                                         />
                                         <br/>
-                                        <Router>
-                                            <Link to="/centro"><button onclick className="boton-login" target="_blank" >Iniciar Sesión</button></Link>
-                                            <Switch>
-                                                <Route exact path="/centro" component={centro}/>
-                                            </Switch> 
-                                        </Router>
+                                        <Link className="boton-login" target="_blank" to="/Menu">
+                                                Iniciar Sesion
+                                        </Link>
                                         <div className="enlace">
                                             <a href="/">¿Olvidaste tu contraseña?</a>
                                         </div>

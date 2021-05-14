@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import formulario_login from '../components/formulario_login';
+import abajo from '../components/abajo';
 import texto_login from '../components/texto_login';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Menu from './Menu';
 import '../css/login.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import centro from '../components/centro';
 class Login extends Component {
     render() {
         return (
             <div>
+                <abajo/>
+                <centro/>
+                <formulario_login></formulario_login>
+                <texto_login></texto_login>
                 <div className="color-fondo">
                     <div className="container-fluid">
                         <div className="row">

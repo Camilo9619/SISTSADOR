@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import '../css/centro.css';
 import imagen1 from '../images/jeringa.svg';
 class centro extends Component {
     render() {
         return (
             <div>
-                <div className="container-fluid">
-                    <div class="parte-superior"> 
-                        <div className="row">
-                            <div className="col-3">
-                                <span>HEADER</span>
-                            </div>
-                            <div className="col-3">
-                                <span>HEADER</span>
-                            </div>
-                            <div className="col-3">
-                                <span>HEADER</span>
-                            </div>
-                            <div className="col-3">
-                                <span>HEADER</span>
+                <div>
+                    <div className="container-fluid">
+                        <div class="parte-superior"> 
+                            <div className="row">
+                                <div className="col-3">
+                                    <span>HEADER</span>
+                                </div>
+                                <div className="col-3">
+                                    <span>HEADER</span>
+                                </div>
+                                <div className="col-3">
+                                    <span>HEADER</span>
+                                </div>
+                                <div className="col-3">
+                                    <span>HEADER</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,7 +61,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                                <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h3 className="texto-blanco">13042</h3>
@@ -70,7 +73,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                                <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h3 className="texto-blanco">1663</h3>
@@ -82,7 +85,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                               <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h3 className="texto-blanco">705</h3>
@@ -94,7 +97,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                                <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h3 className="texto-blanco">639</h3>
@@ -106,7 +109,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                                <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h3 className="texto-blanco">0</h3>
@@ -152,7 +155,7 @@ class centro extends Component {
                                     <div className="col-sm-12 col-md-4">
                                         <div className="info d-flex align-items-center">
                                             <div className="m-r-10">
-                                                <i className="mdi mdi-needle text-white display-5 op-5"><img className="imagen-1"src={imagen1}/></i>
+                                                <img className="imagen-1"src={imagen1}/>
                                             </div>
                                             <div>
                                                 <h4 className="texto-blanco">4661</h4>
@@ -209,8 +212,10 @@ class centro extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="parte-inferior">
-                    <span>All Rights Reserved by Xhygnus.com Developed by<a href="https://www.xhygnus.com/pweb/"> Xhygnus.</a></span>
+                <div>
+                    <div className="parte-inferior">
+                        <span>All Rights Reserved by Xhygnus.com Developed by<a href="https://www.xhygnus.com/pweb/"> Xhygnus.</a></span>
+                    </div>   
                 </div>
             </div>
         );
