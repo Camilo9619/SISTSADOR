@@ -40,17 +40,21 @@
     height: 48px;
     background-color: #1877f2;
     margin-top: 23px;
-    background-color: #1877f2;
     border: none;
     border-radius: 6px;
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
     width: 364px;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 14px;
   }
   .boton-login :hover{
     background-color:#032046 ;
+    text-decoration:none;
   }
   .enlace{
     color: #1877f2;
