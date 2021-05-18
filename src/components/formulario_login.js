@@ -33,7 +33,7 @@ class formulario_login extends Component {
                                             onChange={this.handleChange}    
                                         />
                                         <br/>
-                                        <Link className="boton-login" target="_blank" to="/Menu">Iniciar Sesion</Link>
+                                        <Link className="boton-login" target="_blank" to="/Home">Iniciar Sesion</Link>
                                         <div className="enlace">
                                             <a href="/">¿Olvidaste tu contraseña?</a>
                                         </div>

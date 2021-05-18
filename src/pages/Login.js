@@ -11,10 +11,6 @@ class Login extends Component {
     render() {
         return (
             <div>
-                <abajo/>
-                <centro/>
-                <formulario_login></formulario_login>
-                <texto_login></texto_login>
                 <div className="color-fondo">
                     <div className="container-fluid">
                         <div className="row">
