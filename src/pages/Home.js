@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarPage from '../components/NavbarPage';
+import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Tabla_Prestadores from '../components/Tabla_Prestadores';
 import '../css/home.css';
@@ -9,7 +9,7 @@ class Home extends Component {
             <div>
                 <div>
                     <div classname="">
-                        <NavbarPage></NavbarPage>
+                       <Navbar/>
                     </div>
                     <div className="row">
                         <div className="col-3">

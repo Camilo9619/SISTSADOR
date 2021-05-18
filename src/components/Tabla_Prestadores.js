@@ -21,83 +21,73 @@ class Tabla_Prestadores extends Component {
                         <tbody>
                             <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><button className="btn btn-success"> Click here</button></td>
+                            <td>Maria </td>
+                            <td>Morisson</td>
+                            <td>@dragon</td>
+                            <td>21</td>
+                            <td>1990/12/01</td>
+                            <td>Melbourne</td>
+                            <td><button className="btn btn-success">In Progress</button></td>
                             </tr>
                             <tr>
                             <th scope="row">2</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Bobby</td>
+                            <td>Brown</td>
+                            <td>@boboby</td>
+                            <td>35</td>
+                            <td>1992/12/01</td>
+                            <td>Tokio</td>
+                            <td><button className="btn btn-primary">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">3</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Alexander</td>
+                            <td>Medinberg</td>
+                            <td>@medimedi</td>
+                            <td>21</td>
+                            <td>1975/12/01</td>
+                            <td>Moscow</td>
+                            <td><button className="btn btn-success">In Progress</button></td>
                             </tr>
                             <tr>
                             <th scope="row">4</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Vera</td>
+                            <td>Lori</td>
+                            <td>@lori</td>
+                            <td>44</td>
+                            <td>1978/12/01</td>
+                            <td>Melbourne</td>
+                            <td><button className="btn btn-primary">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">5</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Maria</td>
+                            <td>Morison</td>
+                            <td>@dragon</td>
+                            <td>25</td>
+                            <td>1992/12/01</td>
+                            <td>London</td>
+                            <td><button className="btn btn-primary">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">6</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Bobby</td>
+                            <td>Brown</td>
+                            <td>@boboby</td>
+                            <td>29</td>
+                            <td>1988/12/01</td>
+                            <td>Rome</td>
+                            <td><button className="btn btn-primary">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">7</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">8</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td>Mark</td>
+                            <td>Alexander</td>
+                            <td>Medinberg</td>
+                            <td>@medimedi</td>
+                            <td>38</td>
+                            <td>1984/12/01</td>
+                            <td>Vienna</td>
+                            <td><button className="btn btn-success">In Progress</button></td>
                             </tr>
                         </tbody>
                     </table>
