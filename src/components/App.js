@@ -8,10 +8,10 @@ import encabezado from './encabezado';
 import formulario_login from './formulario_login';
 import texto_login from './texto_login';
 import Tabla from '../pages/Home';
+import NavBar from './NavBar';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import NavbarPage from './NavbarPage';
 import Tabla_Prestadores from './Tabla_Prestadores';
 import Home from '../pages/Home';
 function App() {
