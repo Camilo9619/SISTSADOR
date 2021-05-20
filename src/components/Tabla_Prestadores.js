@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-
+import '../css/Navbar.css';
 class Tabla_Prestadores extends Component {
     render() {
         return (
             <div>
+                <div className="titulo_tabla">
+                    <span>Listado de Prestadores</span>
+                </div>
                 <div>
                 <table class="table">
                         <thead>

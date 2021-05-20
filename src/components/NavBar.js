@@ -30,35 +30,42 @@ class Navbar extends React.Component {
       }
     render() {
         return(
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="d-flex top-navbar navbar-expand-md navbar-light">
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <Link to="/"><img src={LOGO}alt="" classname="logotipo"/></Link>
+                    <Link to="/"><img src={LOGO}alt="" className="logo"/></Link>
                 </li>
               </ul>
               <form onSubmit={this.handleSubmit}>
-                    <label>
-                        <input type="text"placeholder="Search" value={this.state.value} onChange={this.handleChange} />
-                    </label>
-                    <button type="button" class="btn btn-default btn">
-                        <span class="glyphicon glyphicon-star"></span> Star
-                    </button>
+                    <div className="barra-busqueda">
+                        <label>
+                            <input type="text"placeholder="Search" className="busqueda" value={this.state.value} onChange={this.handleChange} />
+                        </label>
+                        <button type="button" class="boton-busqueda">
+                            <div className="">
+                                <span class="glyphicon glyphicon-star"><i class="fas fa-search"></i></span>
+                            </div>
+                        </button>
+                    </div>
               </form>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Notificacion</a>
-                    <i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i>
-                    <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
-                </li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Mensaje</a>
-                    <i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i>
-                    <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
+                <li>
+                    <div className="icono">
+                        <a href="#"><span class="glyphicon glyphicon-user"></span>  <i className="fas fa-bell"></i></a>
+                        <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
+                    </div>
                 </li>
                 <li>
-                    <div className="">
-                        <img src={PERFIL}alt="" className="imagen"/>
-                        <i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i>
-                    <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
+                    <div className="icono">
+                        <a href="#"><span class="glyphicon glyphicon-user"></span> <i className="fas fa-comment-alt"></i></a>
+                        <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#"><span class="glyphicon glyphicon-user"></span> <i className="fas fa-user"></i></a>
+                        <a _ngcontent-dal-c3="" aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-dark dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" ngbdropdowntoggle=""><i _ngcontent-dal-c3="" class="mdi mdi-bell font-24"></i></a>
                     </div>
                 </li>
               </ul>
