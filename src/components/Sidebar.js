@@ -31,7 +31,7 @@ const Sidebar = () => {
               <CDBSidebarMenuItem icon="columns">Dashboard
               </CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/Tabla_Prestadores" activeClassName="activeClicked">
+            <NavLink exact to="/Prestadores">
               <CDBSidebarMenuItem icon="table">Prestadores</CDBSidebarMenuItem>
             </NavLink>
   
@@ -40,7 +40,7 @@ const Sidebar = () => {
               exact
               to="/hero404"
               target=""
-              activeClassName="activeClicked"
+          
             >
             </NavLink>
           </CDBSidebarMenu>

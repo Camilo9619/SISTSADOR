@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import '../css/Navbar.css';
+import '../css/Tabla_Prestadores.css';
+import Sidebar from './Sidebar';
+import NavBar from './NavBar';
 class Tabla_Prestadores extends Component {
     render() {
         return (
             <div>
+                
                 <div className="titulo_tabla">
                     <span>Listado de Prestadores</span>
                 </div>
@@ -30,7 +33,7 @@ class Tabla_Prestadores extends Component {
                             <td>21</td>
                             <td>1990/12/01</td>
                             <td>Melbourne</td>
-                            <td><button className="btn btn-success">In Progress</button></td>
+                            <td><button className="boton-progress">In Progress</button></td>
                             </tr>
                             <tr>
                             <th scope="row">2</th>
@@ -40,7 +43,7 @@ class Tabla_Prestadores extends Component {
                             <td>35</td>
                             <td>1992/12/01</td>
                             <td>Tokio</td>
-                            <td><button className="btn btn-primary">Complete</button></td>
+                            <td><button className="boton-complete">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">3</th>
@@ -50,7 +53,7 @@ class Tabla_Prestadores extends Component {
                             <td>21</td>
                             <td>1975/12/01</td>
                             <td>Moscow</td>
-                            <td><button className="btn btn-success">In Progress</button></td>
+                            <td><button className="boton-progress">In Progress</button></td>
                             </tr>
                             <tr>
                             <th scope="row">4</th>
@@ -60,7 +63,7 @@ class Tabla_Prestadores extends Component {
                             <td>44</td>
                             <td>1978/12/01</td>
                             <td>Melbourne</td>
-                            <td><button className="btn btn-primary">Complete</button></td>
+                            <td><button className="boton-complete">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">5</th>
@@ -70,7 +73,7 @@ class Tabla_Prestadores extends Component {
                             <td>25</td>
                             <td>1992/12/01</td>
                             <td>London</td>
-                            <td><button className="btn btn-primary">Complete</button></td>
+                            <td><button className="boton-complete">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">6</th>
@@ -80,7 +83,7 @@ class Tabla_Prestadores extends Component {
                             <td>29</td>
                             <td>1988/12/01</td>
                             <td>Rome</td>
-                            <td><button className="btn btn-primary">Complete</button></td>
+                            <td><button className="boton-complete">Complete</button></td>
                             </tr>
                             <tr>
                             <th scope="row">7</th>
@@ -90,7 +93,7 @@ class Tabla_Prestadores extends Component {
                             <td>38</td>
                             <td>1984/12/01</td>
                             <td>Vienna</td>
-                            <td><button className="btn btn-success">In Progress</button></td>
+                            <td><button className="boton-progress">In Progress</button></td>
                             </tr>
                         </tbody>
                     </table>

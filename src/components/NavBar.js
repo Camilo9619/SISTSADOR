@@ -32,7 +32,7 @@ class Navbar extends React.Component {
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <Link to="/"><img src={LOGO}alt="" className="logo"/></Link>
+                    <Link to="/Home"><img src={LOGO}alt="" className="logo"/></Link>
                 </li>
               </ul>
               <form onSubmit={this.handleSubmit}>
