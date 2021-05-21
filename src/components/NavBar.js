@@ -39,13 +39,13 @@ class Navbar extends React.Component {
                     <div className="barra-busqueda">
                         <label>
                             <input type="text"placeholder="Search" className="busqueda" value={this.state.value} onChange={this.handleChange} />
-                                 <i class="fa fa-times" aria-hidden="true">
-                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                                <i class="fa fa-times" aria-hidden="true">
+                                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
                             </i>
                         </label>
                         <button type="button" class="boton-busqueda">
                             <div className="">
-                                <span class="glyphicon glyphicon-star"><i class="fas fa-search"></i></span>
+                                <a><span class="glyphicon glyphicon-star"><i class="fas fa-search"></i></span></a>
                             </div>
                         </button>
                     </div>

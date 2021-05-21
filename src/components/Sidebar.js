@@ -34,7 +34,6 @@ const Sidebar = () => {
             <NavLink exact to="/Prestadores">
               <CDBSidebarMenuItem icon="table">Prestadores</CDBSidebarMenuItem>
             </NavLink>
-  
 
             <NavLink
               exact
