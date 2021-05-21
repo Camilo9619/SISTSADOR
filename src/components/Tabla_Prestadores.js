@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../css/Tabla_Prestadores.css';
-import Sidebar from './Sidebar';
-import NavBar from './NavBar';
 class Tabla_Prestadores extends Component {
     render() {
         return (
