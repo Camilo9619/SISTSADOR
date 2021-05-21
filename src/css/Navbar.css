@@ -28,8 +28,9 @@
    margin-left: 25px;
   }
   .icono{
-    width: 100px;
-    height: 40px;
+    width: 58px;
+    height: -22px;
+    margin-bottom: 6px;
   }
 .navbar-expand-md .navbar-collapse {
     display: flex !important;
@@ -58,22 +59,28 @@
   content: "\f007";
   width: 100%;
   height: 23px;
-  font-size: 25px;
+  font-size: 20px;
   color: #b9b7b7;
 }
 
 .fa-comment-alt:before {
   content: "\f27a";
-  font-size: 25px;
+  font-size: 20px;
   color: #b9b7b7;
 }
 .fa-bell:before {
   content: "\f0f3";
-  font-size: 25px;
+  font-size: 20px;
   color: #b9b7b7;
+}
+.fa-times:before{
+  content: "\f00d";
+  color: #b9b7b7;
+  margin-left: -18px;
+
 }
 .titulo_tabla{
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   color: #000000;
 }
