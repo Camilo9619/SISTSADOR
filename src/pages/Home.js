@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
-import Sidebar from '../components/Sidebar';
 import Tabla_Prestadores from '../components/Tabla_Prestadores';
 import '../css/home.css';
+import BarraIzquierda from '../components/BarraIzquierda';
 class Home extends Component {
     render() {
         return (
@@ -13,14 +13,13 @@ class Home extends Component {
                     </div>
                     <div className="row">
                         <div className="col-3">
-                         <Sidebar></Sidebar>
+                         <BarraIzquierda></BarraIzquierda>
                         </div>
                         <div className="col-9">
                             <div classname="tabla">
                                 <div className="titulo-tabla">
-                                    
+                                    <Tabla_Prestadores></Tabla_Prestadores>
                                 </div>
-                              
                             </div>
                         </div>
                     </div>

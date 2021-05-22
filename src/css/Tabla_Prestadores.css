@@ -3,6 +3,7 @@
     font-size: 20px;
     color: #000000;
     margin-left: 43px;
+    margin-bottom: 66px;
 }
 .boton-progress{
     background-color: #19bd27;
@@ -11,6 +12,10 @@
     font-weight: bold;
     font-size: 10px;
     width: 86px;
+    margin-bottom: 1px;
+    text-align: center;
+    position: relative;
+    bottom: -6px;
 }
 .boton-progress:hover{
     background-color: #4a8a4f;
@@ -23,6 +28,8 @@
     font-weight: bold;
     font-size: 10px;
     width: 86px;
+    position: relative;
+    bottom: -6px;
 }
 .boton-complete:hover{
     background-color: #434aa7;
@@ -39,4 +46,9 @@
     background-color: #ffffff;
     width: 1349px;
     height: 64px;
+}
+table.table th, table.table td {
+    padding-top: 4px;
+    position: relative;
+    vertical-align: bottom;
 }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from '../components/NavBar';
-import SIDEBAR from '../components/Sidebar';
+import BarraSuperior from '../components/BarraIzquierda';
 import Tabla_Prestadores from '../components/Tabla_Prestadores';
 import {BrowserRouter} from 'react-router-dom';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Sidebar from '../components/Sidebar';
+import BarraIzquierda from '../components/BarraIzquierda';
 class Prestadores extends Component {
     render() {
         return (
@@ -14,7 +14,7 @@ class Prestadores extends Component {
                        <Navbar/>
                     </div>
                     <div class="sidebar">
-                        <Sidebar/>
+                       <BarraIzquierda></BarraIzquierda>
                     </div>
                     <div className="tabla">
                        <Tabla_Prestadores/>
