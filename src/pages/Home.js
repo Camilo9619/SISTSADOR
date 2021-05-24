@@ -17,9 +17,7 @@ class Home extends Component {
                         </div>
                         <div className="col-9">
                             <div classname="tabla">
-                                <div className="titulo-tabla">
-                                    <Tabla_Prestadores></Tabla_Prestadores>
-                                </div>
+ 
                             </div>
                         </div>
                     </div>

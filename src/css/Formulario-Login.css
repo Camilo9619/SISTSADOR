@@ -85,7 +85,12 @@
   .color-fondo{
     padding: 200px;
     background-color: #f0f2f5;
-}
+  }
 .TODOLOGIN{
   background-color: #f0f2f5;
+  }
+.entrar{
+  color: #8fccff;
+  font-size: 22px;
+  text-align: center;
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import centro from '../components/centro';
+import abajo from '../components/abajo';
 import '../css/menu.css';
+import encabezado from '../components/encabezado';
 import {BrowserRouter, Switch, Link,Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class Menu extends Component {
@@ -9,13 +11,25 @@ class Menu extends Component {
             <div>
                 <div className="fondo-parte">
                   <div>
-                    <encabezado/>
+                    <BrowserRouter>
+                        <Switch>
+                              <Route exact path="/" component={encabezado}/>
+                        </Switch>
+                    </BrowserRouter>
                   </div>
                   <div>
-                    <centro/>
+                    <BrowserRouter>
+                        <Switch>
+                              <Route exact path="/" component={centro}/>
+                        </Switch>
+                    </BrowserRouter>
                   </div>
                   <div>
-                    <abajo/>
+                    <BrowserRouter>
+                          <Switch>
+                                <Route exact path="/" component={abajo}/>
+                          </Switch>
+                    </BrowserRouter>
                   </div>
                 </div>
             </div>

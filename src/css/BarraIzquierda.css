@@ -1,5 +1,5 @@
-.dashboard{
-    margin-top: -39px;
+.dashboard {
+    margin-top: -13px;
 }
 .prestadores{
     margin-top: -19px;
@@ -11,4 +11,16 @@
     content: "\f0c9";
     position: relative;
     top: 23px;
+}
+.kDtnnK {
+    background: #ffffff;
+    color: #000000;
+    height: 100%;
+    width: 172px;
+    min-width: 148px;
+    text-align: left;
+    -webkit-transition: width,left,right,0.3s;
+    transition: width,left,right,0.3s;
+    position: relative;
+    z-index: 1009;
 }
