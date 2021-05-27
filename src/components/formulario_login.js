@@ -32,12 +32,6 @@ class formulario_login extends Component {
                                         />
                                         <br/>
                                         <Link className="boton-login" target="_blank" to="/Home">Iniciar Sesión</Link>
-                                        <div className="entrar">
-                                            <span>Entrar</span>
-                                        </div>
-                                        <div className="enlace">
-                                            <a href="/">¿Olvidaste tu contraseña?</a>
-                                        </div>
                                         <div className="barra">
                                             <span>______________________________________________________</span>
                                         </div>
